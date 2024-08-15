@@ -510,6 +510,7 @@ transition: cubic-bezier(0.19, 1, 0.22, 1)1s;
 @media (max-width:600px) {
   .navbar{
     justify-content: space-around;
+    padding: 0;
 
   }
   .links{     
@@ -573,7 +574,7 @@ transition: cubic-bezier(0.19, 1, 0.22, 1)1s;
     top:740%;
   }
   .skill{
-    top:730%;
+    top:750%;
   }
   .skill_container{
     background-color: #fff;
