@@ -583,7 +583,7 @@ transition: cubic-bezier(0.19, 1, 0.22, 1)1s;
     background-color: #fff;
   }
   .footer{
-    top: 860%;
+    top: 880%;
   }
   .fcontent{
     flex-direction: column;
