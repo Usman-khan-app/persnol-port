@@ -619,7 +619,8 @@ transition: cubic-bezier(0.19, 1, 0.22, 1)1s;
   }
 }
 @media (max-width:400px) {
-  body{
+  html,body{
+    width: 100vw;
     overflow-x: hidden;
   }
   .social_links{
