@@ -509,8 +509,8 @@ transition: cubic-bezier(0.19, 1, 0.22, 1)1s;
 
 @media (max-width:600px) {
   .navbar{
-    justify-content: center;
-    gap: 10px;
+    justify-content: space-around;
+
   }
   .links{     
     display: none;
@@ -564,13 +564,13 @@ transition: cubic-bezier(0.19, 1, 0.22, 1)1s;
     
   }
   .technology_sec{
-    top: 580%;
+    top: 600%;
   }
   .sec{
     background-color: #fff;
   }
   .i_line{
-    top:720%;
+    top:740%;
   }
   .skill{
     top:730%;
@@ -579,7 +579,7 @@ transition: cubic-bezier(0.19, 1, 0.22, 1)1s;
     background-color: #fff;
   }
   .footer{
-    top: 850%;
+    top: 860%;
   }
   .fcontent{
     flex-direction: column;
@@ -604,7 +604,14 @@ transition: cubic-bezier(0.19, 1, 0.22, 1)1s;
     color: #000;
   }
   .pro{
-    top: 350%;
+    top: 340%;
+  }
+  .project_card{
+    text-overflow: hide;
+    overflow: hidden;
+  }
+  .project_card p{
+    font-size: 15px;
   }
 }
 @media (max-width:400px) {
