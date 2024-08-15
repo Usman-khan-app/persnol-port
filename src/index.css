@@ -510,7 +510,7 @@ transition: cubic-bezier(0.19, 1, 0.22, 1)1s;
 @media (max-width:600px) {
   .navbar{
     justify-content: space-around;
-    padding: 0;
+  padding: 0px 0px;
 
   }
   .links{     
@@ -518,6 +518,9 @@ transition: cubic-bezier(0.19, 1, 0.22, 1)1s;
     flex-direction: column;
     gap: 20px;
   
+  }
+  .social_links {
+    gap: 3px;
   }
   .burger{
     display: block;
@@ -574,7 +577,7 @@ transition: cubic-bezier(0.19, 1, 0.22, 1)1s;
     top:740%;
   }
   .skill{
-    top:750%;
+    top:770%;
   }
   .skill_container{
     background-color: #fff;
