@@ -94,6 +94,8 @@
     .projects_box{
         width: 300px;
         margin-top: 30px;
+        padding: 2px;
+        margin-left: -20px;
        
 
     }

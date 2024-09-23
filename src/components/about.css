@@ -104,6 +104,12 @@
     .right_about_content{
         margin: 10px;
     }
+    .right_about_content>h1{
+    
+        width: 160%;
+        
+    }
+    
     .right_about_content p{
         width: 170%;
     }
@@ -131,6 +137,11 @@
     .right_about_content{
         margin: 10px;
         margin-left: 60px;
+    }
+    .right_about_content>h1{
+    
+        width: 100vw;
+        
     }
     .right_about_content p{
         width: 190%;
