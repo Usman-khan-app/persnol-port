@@ -1,0 +1,91 @@
+.skill{
+    width: 100vw;
+    /* background-color: red; */
+    padding: 20px 100px;
+    
+
+}
+.skill>h1{
+    font-family: "Abril Fatface", serif;
+    font-style: normal;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: 4px;
+    text-align: center;
+    font-size: 39px;
+}
+.skill .skill-content h1{
+    text-align: center;
+    font-size: 39px;
+    font-family: "Jacques Francois Shadow", serif;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: 4px;
+    
+
+}
+.skill_box{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 30px 70px;
+
+}
+.skill-content{
+    width: 260px;
+    height: 160px;
+    border: 3px solid black;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgba(55, 54, 54, 0.5);
+    transition: cubic-bezier(0.19, 1, 0.22, 1)1s;
+    cursor: pointer;
+}
+.skill-content:hover{
+    scale: 1.2;
+}
+@media (max-width:480px) {
+    .skill{
+        padding: 0;
+    }
+    .skill_box{
+        padding: 0;
+    }
+    .skill-content{
+        width: 300px;
+        height: 150px;
+    }
+    
+}
+@media (min-width:481px) and (max-width:768px) {
+    .skill{
+        padding: 0;
+    }
+    .skill_box{
+        padding: 0;
+    }
+    .skill-content{
+        width: 300px;
+        height: 150px;
+        gap: 0 ;
+        
+    }
+    
+}
+@media (min-width:769px) and (max-width:1024px) {
+    .skill{
+        padding: 20px 20px;
+    }
+    .skill_box{
+        padding: 10px;
+    }
+    .skill-content{
+        width: 300px;
+        height: 150px;
+        gap: 20px ;
+        
+    }
+    
+}

@@ -1,0 +1,200 @@
+.contect{
+    width: 100%;
+    
+    padding: 40px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #020224;
+    border-bottom: 2px solid #fff;
+    border-top-right-radius: 150px;
+}
+.left_contect{
+    width: 48%;
+    height: 100%;
+    border-right: 2px solid #fff;
+}
+.left_contect h1{
+    /* font-family: "Abril Fatface", serif; */
+    font-family: "Jacques Francois Shadow", serif;
+    color: #fff;
+
+    font-style: normal;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: 4px;
+    text-align: center;
+    font-size: 39px;
+    margin-top: 20px;
+}
+.form{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    gap: 20px;
+}
+
+.form input{
+    width: 20vw;
+    border: 2px solid rgb(247, 243, 243);
+    margin-left: 20px;
+    padding: 13px;
+    border-radius: 10px;
+    background-color: transparent;
+    color: #fff;
+    font-size: 17px;
+    margin-top: 10px;
+}
+input[type="email"]{
+    width:41.4vw;
+}
+.text{
+    border: 2px solid rgb(240, 238, 238);
+    width: 41vw;
+    margin-top: 10px;
+    margin-left: 20px;
+    border-radius: 10px;
+    background-color: transparent;
+    padding: 10px;
+    
+
+
+}
+.btn{
+    width: 200px;
+    border: 2px solid rgb(241, 238, 238);
+    height: 50px;
+    text-align: center;
+    margin-left: 200px;
+    border-radius: 10px;
+    margin-top: 10px;
+    color: #fff;
+
+}
+.right_contect{
+    width: 48%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.write_img{
+    width: 70%;
+    height: 50vh;
+    background-image: url('../images/c.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    border-radius: 20px;
+    margin-top: 80px;
+}
+@media (max-width:480px) {
+    .contect{
+        flex-direction: column;
+        padding: 10px;
+    }
+    .left_contect{
+        width: 100%;
+    }
+    .form input{
+        width: 90vw;
+        margin-left: 2px;
+    }
+    .text{
+        width: 90vw;
+        margin-left: 2px;
+    }
+    .right_contect{
+        width: 100vw;
+        height: 40vh;
+        padding: 10px 0;
+        display: block;
+        
+    }
+    .write_img{
+        width: 90%;
+        height: 40vh;
+        background-position: center;
+        object-fit: cover;
+        margin-top: 10px;
+       
+    }
+    .btn{
+        margin-left: 20vw;
+    }
+}
+@media (min-width:481px) and (max-width:768px) {
+    .contect{
+        flex-direction: column;
+        padding: 10px;
+    }
+    .left_contect{
+        width: 100%;
+    }
+    .form input{
+        width: 90vw;
+        margin-left: 2px;
+    }
+    .text{
+        width: 90vw;
+        margin-left: 2px;
+    }
+    .right_contect{
+        width: 100vw;
+        height: 40vh;
+        padding: 10px 0;
+        display: block;
+        
+    }
+    .write_img{
+        width: 90%;
+        height: 80%;
+        background-position: center;
+        object-fit: cover;
+        margin-top: 10px;
+       
+    }
+    .btn{
+        margin-left: 20vw;
+    }
+}
+
+@media (min-width:769px) and (max-width:1024px) {
+    .contect{
+        flex-direction: row;
+        padding: 10px;
+        height: 100vh;
+    }
+    .left_contect{
+        width: 40%;
+    }
+    .form input{
+        width: 80%;
+        margin-left: 2px;
+    }
+    .text{
+        width: 80%;
+        margin-left: 2px;
+    }
+    .right_contect{
+        width: 50vw;
+        height: 40vh;
+        padding: 10px 0;
+        display: flex;
+        justify-content: center;
+        margin-top: 100px ;
+        
+    }
+    .write_img{
+        width: 90%;
+        height: 80%;
+        background-position: center;
+        object-fit: cover;
+       
+    }
+    .btn{
+        margin-left: 5vw;
+    }
+}

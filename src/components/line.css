@@ -1,0 +1,9 @@
+.img-line{
+    width: 100vw;
+    height: 50vh;
+    background-image: url('../images/line.png');
+    background-position: center;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
