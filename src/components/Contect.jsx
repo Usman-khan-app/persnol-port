@@ -2,7 +2,7 @@ import React from 'react'
 import './contect.css'
 export default function Contect() {
   return (
-    <div className='contect'>
+    <div className='contect'id='contect-us'>
       <div className="left_contect">
       <h1>Contect With Us</h1>
       <div className="form">

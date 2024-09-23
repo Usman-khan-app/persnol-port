@@ -3,7 +3,7 @@ import './skills.css'
 export default function Skill() {
     let skills = ['HTML',"CSS","Java Script","React.Js","Tailwind Css","Bootstarap","Gsap","Node.Js","Express.js","Mongo Db",'Git Hub']
   return (
-    <div className='skill'>
+    <div className='skill' id='skill-1'>
         <h1>Skills</h1>
         <div className="skill_box">
             {

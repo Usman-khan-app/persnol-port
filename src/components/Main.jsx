@@ -12,25 +12,21 @@ export default function Main() {
     <div className="main w-screen">
       <Navbar />
 
-      <div className="section">
+      <div className="section" id="home1">
         <div className="left">
           <div className="left_content">
             <h1>
-              Hi, i am <span>usman khan</span> <br />i am a 
-              <span> {""}web devoloper</span>
+              Hi, i am <span>Usman Khan</span> <br />i am a 
+              <span> {""}Web  Developer</span>
             </h1>
             <p>
-              I am presently employed as a Frontend Web Developer at Tech
-              Creator Software House, specializing in crafting fully responsive
-              websites. My enthusiasm lies in embracing new technologies,
-              problem-solving, and collaborating with a professional team to
-              explore fresh ideas and concepts
+            Passionate web developer skilled in creating responsive, user-friendly websites. Proficient in HTML, CSS, JavaScript, and various frameworks. Committed to delivering high-quality code and optimizing user experience. Strong problem-solver with a keen eye for design and detail.
             </p>
             <div className="left_icon">
-              <a href=""><CiFacebook /></a>
-              <a href=""><FaLinkedinIn /></a>
+              <a href="https://www.facebook.com/profile.php?id=61563842459927"><CiFacebook /></a>
+              <a href="https://www.linkedin.com/in/usman-khan-pk898799/"><FaLinkedinIn /></a>
               <a href=""><FaInstagram /></a>
-              <a href=""><FaGithub /></a>
+              <a href="https://github.com/Usman-khan-app"><FaGithub /></a>
             </div>
           </div>
         </div>

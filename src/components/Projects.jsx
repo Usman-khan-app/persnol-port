@@ -1,27 +1,29 @@
 import React from 'react'
 import './project.css'
+import pro1 from '../images/hipta.png'
 export default function Projects() {
     let projects = [
         {
             id:1,
-            img:"",
-            title:"this is my frist project",
-            disc:"this project about the same thing that you see in pic"
+            img:pro1,
+            title:"Hipta",
+            disc:"I successfully cloned this website using HTML, CSS, and React.js,."
         },
         {
             id:1,
-            img:"",
-            title:"this is my frist project",
-            disc:"this project about the same thing that you see in pic"
-        }, {
+            img:pro1,
+            title:"Hipta",
+            disc:"I successfully cloned this website using HTML, CSS, and React.js,."
+        },
+        {
             id:1,
-            img:"",
-            title:"this is my frist project",
-            disc:"this project about the same thing that you see in pic"
-        }
+            img:pro1,
+            title:"Hipta",
+            disc:"I successfully cloned this website using HTML, CSS, and React.js,."
+        },
     ]
   return (
-    <div className='projects'>
+    <div className='projects' id='pro'>
         <h1>Projects</h1>
         <div className="project_area">
 

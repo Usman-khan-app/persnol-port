@@ -3,7 +3,7 @@ import './nav.css'
 import logo from '../images/2.png'
 
 export default function Navbar() {
-    const links = ["Home","Contect us","services","blog","exprences","skill"]
+    const links = ["Home","Skills","services","blog","exprences","skill"]
     const [show,setShow]=useState(false)
     const toggle =()=>{
         setShow(isOpen => !isOpen)
@@ -32,18 +32,33 @@ export default function Navbar() {
         </div>
         <div className="nav_links">
 <ul className={`nav_content ${show ?'open':'close'}`}>
-    {
-        links.map(link=>
-            <>
+    
+            
              <li className='nav-item'>
-        <a href="">{link}</a>
+        <a href="#home1">Home</a>
+
+    </li>
+    <li className='nav-item'>
+        <a href="#skill-1">Skills</a>
+
+    </li>
+    <li className='nav-item'>
+        <a href="#pro">Projects</a>
+
+    </li>
+    <li className='nav-item'>
+        <a href="#about-me">About Me</a>
+
+    </li>
+    <li className='nav-item'>
+        <a href="#contect-us">Contect Us</a>
 
     </li>
             
-            </>
+            
 
-        )
-    }
+        
+    
    
     
 </ul>

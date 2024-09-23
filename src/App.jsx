@@ -5,6 +5,7 @@ import Projects from './components/Projects'
 import Line from './components/Line'
 import About from './components/About'
 import Contect from './components/Contect'
+import Footer from './components/Footer'
 export default function App() {
   return (
     <div>
@@ -14,6 +15,7 @@ export default function App() {
       <Line />
       <About />
       <Contect />
+      <Footer />
     </div>
   )
 }
