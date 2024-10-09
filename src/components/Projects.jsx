@@ -38,7 +38,7 @@ export default function Projects() {
             </div>
             <h1>{project.title}</h1>
             <p>{project.disc}</p>
-<button src={product.url}>vist</button>
+<a src={product.url}>vist</a>
         </div>
                 </>
             )
