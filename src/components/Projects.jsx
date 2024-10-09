@@ -10,16 +10,18 @@ export default function Projects() {
             disc:"I successfully cloned this website using HTML, CSS, and React.js,."
         },
         {
-            id:1,
+            id:2,
             img:pro1,
-            title:"Hipta",
-            disc:"I successfully cloned this website using HTML, CSS, and React.js,."
+            title:"Estore",
+            disc:"I successfully create this website using React.js  HTML,  and tailwindd CSS, .",
+            url:"hipta"
         },
         {
             id:1,
             img:pro1,
             title:"Hipta",
-            disc:"I successfully cloned this website using HTML, CSS, and React.js,."
+            disc:"I successfully cloned this website using HTML, CSS, and React.js,.",
+            url :"https://estore12.netlify.app/"
         },
     ]
   return (
@@ -36,7 +38,7 @@ export default function Projects() {
             </div>
             <h1>{project.title}</h1>
             <p>{project.disc}</p>
-<button>vist</button>
+<button src={product.url}>vist</button>
         </div>
                 </>
             )
